@@ -1,0 +1,22 @@
+{
+  "landmarks": [
+    24,
+    48,
+    72
+  ],
+  "horizon": 24,
+  "C": 0.03,
+  "n_main": 4624,
+  "base_k": 123,
+  "traj_k": 82,
+  "reclass": {
+    "n_common": 413,
+    "n_up": 20,
+    "n_down": 98,
+    "up_rate": 0.048426150121065374,
+    "down_rate": 0.23728813559322035,
+    "median_risk_ratio": 0.532299572655906,
+    "events_up": 3
+  },
+  "elapsed_s": 603.1
+}

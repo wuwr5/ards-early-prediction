@@ -1,0 +1,7 @@
+# 运行 01–06 所需依赖；测试另需标准库 unittest（无额外包）
+numpy>=1.23
+pandas>=1.5
+scipy>=1.9
+scikit-learn>=1.1
+matplotlib>=3.6
+psycopg2-binary>=2.9

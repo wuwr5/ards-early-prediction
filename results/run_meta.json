@@ -1,0 +1,12 @@
+{
+  "n_total": 3418,
+  "n_train": 2392,
+  "n_test": 1026,
+  "events_total": 442,
+  "event_rate": 0.12931538911644236,
+  "n_features": 121,
+  "best_C_M2": 0.003,
+  "cv_auroc_M2": 0.7231044377775249,
+  "cv_auroc_M3": 0.7221296251450209,
+  "seed": 42
+}

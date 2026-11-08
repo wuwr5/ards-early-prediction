@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite both this repository and the MIMIC-IV dataset."
+title: "Incident ARDS Early Prediction in MIMIC-IV: Label Definition, Structured Multimodal Increment, and Landmark Dynamic Models"
+type: software
+authors:
+  - family-names: Wu
+    given-names: Weirong
+    affiliation: "Department of Respiratory and Critical Care Medicine, No. 928 Hospital"
+year: 2026
+repository-code: "https://github.com/wuwr5/ards-early-prediction"
+license: MIT
+keywords:
+  - ARDS
+  - MIMIC-IV
+  - clinical prediction model
+  - landmark model
+  - calibration
+  - reproducible research
+preferred-citation:
+  type: article
+  title: "MIMIC-IV 中前瞻式偶发 ARDS 的早期预测：标签口径的决定性作用、结构化多模态增量与 landmark 动态模型"
+  year: 2026
+  authors:
+    - family-names: Wu
+      given-names: Weirong
+  status: in-preparation

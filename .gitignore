@@ -1,0 +1,35 @@
+# ---------- 密钥 / 本机配置 ----------
+.env
+*.env.local
+
+# ---------- 受控数据：绝不可提交 ----------
+# MIMIC-IV 受 PhysioNet DUA 约束，任何患者级数据都不得进入版本控制
+data/*.csv
+data/*.parquet
+data/*.h5
+data/*.h5ad
+data/*.xlsx
+results/*predictions*.csv
+results/*_ids.csv
+
+# ---------- 运行日志与临时产物 ----------
+logs_*.txt
+*.log
+_tmp/
+_chk/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# ---------- 稿件与本地文件 ----------
+*.docx
+*.pdf
+*.pptx
+~$*
+
+# ---------- 编辑器 / 系统 ----------
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
