@@ -1,0 +1,15 @@
+# 统一行尾，避免 Windows / Linux 检出差异
+* text=auto eol=lf
+
+# 图件与二进制产物
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.docx binary
+*.pptx binary
+
+# 生成脚本本身也用 LF
+*.py text eol=lf
+*.md text eol=lf
+*.slide text eol=lf
